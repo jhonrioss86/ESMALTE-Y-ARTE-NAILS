@@ -1,0 +1,119 @@
+/* ----- Generales ----- */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffc0cb;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+/* ----- Navegación ----- */
+nav {
+    background-color: #111;
+    border-bottom: 2px solid #d4af37;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: #d4af37;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #d4af37;
+}
+
+/* ----- Hero ----- */
+.hero {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.75)
+    );
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 25px;
+    max-width: 700px;
+}
+
+/* ----- Botones ----- */
+.btn-principal {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 35px;
+    background: #d4af37;
+    color: #111;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-principal:hover {
+    background: #f5d76e;
+    transform: translateY(-3px);
+}
+
+.btn-whatsapp {
+    display: inline-block;
+    margin-top: 20px;
+    background: #25d366;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/* ----- Servicios ----- */
+.servicios {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+   
